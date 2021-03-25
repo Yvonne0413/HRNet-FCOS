@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-03-25T18:28:03.114Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="ynYMf-3tvW43pCSwZRB9" version="14.4.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-25T18:35:25.764Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="ePhfkBpX9InR2Eqv9mok" version="14.4.2" type="github">
   <diagram id="RAmiI_gLbe4m0hTPBt3y" name="Page-1">
-    <mxGraphModel dx="856" dy="581" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="856" dy="524" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -120,14 +120,14 @@
         <mxCell id="QadsBa-9Zq_S_Qc7325S-53" value="Feedback 3" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="374" y="60" width="70" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="QadsBa-9Zq_S_Qc7325S-58" value="State:&lt;br&gt;&lt;div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;background-color: transparent&quot;&gt;1. Different Frames&lt;/span&gt;&lt;span style=&quot;background-color: transparent&quot;&gt;(different number objects, class of nonrigid objects)&lt;/span&gt;&lt;/div&gt;&lt;span style=&quot;background-color: transparent&quot;&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;background-color: transparent&quot;&gt;2. Bandwidth&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#10739e;strokeWidth=1;fillColor=#b1ddf0;" vertex="1" parent="1">
+        <mxCell id="QadsBa-9Zq_S_Qc7325S-58" value="State:&lt;br&gt;&lt;div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent&quot;&gt;1. Different Frames&lt;/span&gt;&lt;span style=&quot;background-color: transparent&quot;&gt;(different number objects, class of nonrigid objects)&lt;/span&gt;&lt;/div&gt;&lt;span style=&quot;background-color: transparent&quot;&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent&quot;&gt;2. Bandwidth&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#10739e;strokeWidth=1;fillColor=#b1ddf0;align=center;" vertex="1" parent="1">
           <mxGeometry x="80" y="380" width="180" height="110" as="geometry" />
         </mxCell>
         <mxCell id="QadsBa-9Zq_S_Qc7325S-59" value="Action:&lt;br&gt;Tile Split and Compression ratio configuration" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#10739e;strokeWidth=1;fillColor=#b1ddf0;" vertex="1" parent="1">
           <mxGeometry x="330" y="395" width="129" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="QadsBa-9Zq_S_Qc7325S-60" value="&lt;font color=&quot;#ff6666&quot;&gt;Reward:&lt;/font&gt;&lt;br&gt;1. Intermediate Results&lt;br&gt;a. Feature Points Extraction Result&lt;br&gt;b. Feature Point Matching Results&lt;br&gt;2. Final Results&lt;br&gt;Pose error&lt;br&gt;Map error" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#10739e;strokeWidth=1;fillColor=#b1ddf0;" vertex="1" parent="1">
-          <mxGeometry x="510" y="380" width="190" height="105" as="geometry" />
+        <mxCell id="QadsBa-9Zq_S_Qc7325S-60" value="&lt;font color=&quot;#ff6666&quot;&gt;Reward:&lt;/font&gt;&lt;br&gt;1. Intermediate Results&lt;br&gt;a. Feature Points Extraction Result&lt;br&gt;b. Feature Point Matching Results&lt;br&gt;2. Final Results&lt;br&gt;Pose error&lt;br&gt;Map error&lt;br&gt;3. Bandwidth utilization&lt;br&gt;a. frame size that reduced through transmitting&lt;br&gt;b. Process time that saved through SLAM system&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#10739e;strokeWidth=1;fillColor=#b1ddf0;" vertex="1" parent="1">
+          <mxGeometry x="510" y="380" width="190" height="190" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
